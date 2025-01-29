@@ -23,12 +23,12 @@ export default function PaymentMethods() {
       {
         id: 5,
         name: 'PayPal',
-        image: 'https://www.paypalobjects.com/webstatic/mktg/logo/pp-logo-200px.png',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png',
       },
       {
         id: 6,
         name: 'Paystack',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Paystack_Logo.svg',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Paystack_Logo.png/320px-Paystack_Logo.png',
       }
     ];
   

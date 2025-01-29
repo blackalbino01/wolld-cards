@@ -4,6 +4,7 @@ import GiftCardGrid from '../components/GiftCardGrid';
 import PaymentMethods from '../components/PaymentMethods';
 import InstantCheer from '../components/InstantCheer';
 import AppDownload from '../components/AppDownload';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <PaymentMethods />
       <InstantCheer />
       <AppDownload />
+      <Footer />
     </main>
   );
 }
