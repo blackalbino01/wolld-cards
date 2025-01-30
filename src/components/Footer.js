@@ -42,13 +42,25 @@ export default function Footer() {
             {/* Payment Methods */}
             <div>
               <h4 className="text-lg font-normal mb-6">WOLLD Cards Accepts</h4>
-              <div className="grid grid-cols-3 gap-4">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="Bitcoin" className="w-8 h-8" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Ethereum-icon-purple.svg" alt="Ethereum" className="w-8 h-8" />
-                <img src="https://cryptologos.cc/logos/tether-usdt-logo.svg" alt="USDT" className="w-8 h-8" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/LTC-400.png" alt="LTC" className="w-8 h-8" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="Paypal" className="w-8 h-8" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Paystack_Logo.png/320px-Paystack_Logo.png" alt="Paystack" className="w-8 h-8" />
+              <div className="grid grid-cols-3 gap-6">
+                <div className="bg-[#242424] p-3 rounded-lg hover:bg-[#2a2a2a] transition-colors">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="Bitcoin" className="w-full h-8 object-contain" />
+                </div>
+                <div className="bg-[#242424] p-3 rounded-lg hover:bg-[#2a2a2a] transition-colors">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Ethereum-icon-purple.svg" alt="Ethereum" className="w-full h-8 object-contain" />
+                </div>
+                <div className="bg-[#242424] p-3 rounded-lg hover:bg-[#2a2a2a] transition-colors">
+                    <img src="https://cryptologos.cc/logos/tether-usdt-logo.svg" alt="USDT" className="w-full h-8 object-contain" />
+                </div>
+                <div className="bg-[#242424] p-3 rounded-lg hover:bg-[#2a2a2a] transition-colors">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/LTC-400.png" alt="LTC" className="w-full h-8 object-contain" />
+                </div>
+                <div className="bg-[#242424] p-3 rounded-lg hover:bg-[#2a2a2a] transition-colors">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="Paypal" className="w-full h-8 object-contain" />
+                </div>
+                <div className="bg-[#242424] p-3 rounded-lg hover:bg-[#2a2a2a] transition-colors">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Paystack_Logo.png/320px-Paystack_Logo.png" alt="Paystack" className="w-full h-8 object-contain" />
+                </div>
               </div>
             </div>
           </div>
